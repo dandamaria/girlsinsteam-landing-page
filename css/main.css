@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@300&family=Lexend+Mega&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@300&family=Lexend+Mega&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+body{
+    background-color: #241E29;
+}
+
+header{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    height: 90px;
+    background-color: #241e2912;
+}
+.logo{
+    margin-left: 20px;
+    width: 85px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 340px;
+    font-family: "Lexend Giga", sans-serif;
+    font-size: 6pt;
+    cursor: pointer;
+}
+* nav{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.abbr_text{
+    text-decoration: none;    
+    font-weight: bold;
+}
+
+.titles_nav:hover{
+    color: #d000ff;
+    transition: 0.3s;
+}
+
+/*MAIN*/
+main{ /*fundo*/
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+}
+
+/*div do conteúdo - textos*/
+.content{
+    width: 45%;
+    margin-top: 13%;
+    margin-left: 50px;
+}
+.h1main{ /*inspirando umas as outras*/
+    letter-spacing: 2pt;
+    font-size: 33pt;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    /*degradê*/
+    background-image: linear-gradient(to right,#ffffff, #dacdd7,#955f8f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pmain{ /*parágrafo á baixo do título*/
+    margin: 15px 0px 0px 0px;
+    font-family: "Lexend Giga",sans-serif;
+    font-size: 9pt;
+    color: #BAA2C1;
+}
+
+.button1{ /*botão antes do playnow*/
+    border-radius: 100px;
+    padding: 5pt 14pt 5pt 14pt;
+    margin: 0px 10px 0px 0px;
+    background-image: linear-gradient(to right,#A30793, #581A69);
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 1px #481556;
+}
+.h1button{ /*texto dentro do botão*/
+    font-family: "Lexend Giga", sans-serif;
+    font-size: 8pt;
+    margin-left: 5px;
+    color: #ffffff;
+    letter-spacing: 0.5pt;
+}
+
+.button1:hover{
+    box-shadow: 1px 1px 15px 1px #5c226c;
+    padding: 6pt 15pt 6pt 15pt;
+    transition: 0.4s;
+}
+
+svg{ /*buttom de PLAY NOW*/
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+svg:hover{
+    box-shadow: 1px 1px 10px 1px #e5e5e676;
+}
+
+.h1link{
+    font-family: "Lexend Giga",sans-serif;
+    font-size: 8.5pt;
+    margin-left: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.playnow{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.foto{
+    background-color: brown;
+}
+
+
+
+.button2{ /*botão antes do playnow*/
+    border-radius: 100px;
+    padding: 5pt 8pt 5pt 8pt;
+    margin: 0px 10px 0px 0px;
+    background-image: linear-gradient(to right,#A30793, #581A69);
+    border-style: none;
+    cursor: pointer;
+}
+
+* .button2{
+    color: #ffffff;
+    font-family: "Lexend Giga", sans-serif;
+    font-size: 4pt;
+}
+
+.button2:hover{
+    box-shadow: 1px 1px 15px 1px #5c226c;
+    padding: 6pt 10pt 6pt 10pt;
+    transition: 0.4s;
+}
+
+.divroadmap{
+    display: flex;
+    margin: 104px 0px 16px 0px;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.h1_baixo{
+    font-family: "Lexend Giga",sans-serif;
+    font-size: 10pt;
+    color: #ffffff;
+    
+}
+.h2_baixo{
+    font-family: "Lexend Giga",sans-serif;
+    font-size: 8pt;
+    color: #BAA2C1;
+}
